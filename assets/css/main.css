@@ -1272,7 +1272,11 @@ input, select, textarea {
 			bottom: 0;
 			cursor: default;
 			left: 0;
-			position: absolute;
+			/* position: absolute; */
+			/*margin-top: -800px;
+			margin-left: 1400px;*/
+			/*max-height: 300px;
+			overflow: auto;*/
 			text-align: left;
 			width: 100%;
 			z-index: 2;
@@ -1346,17 +1350,17 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.poptrox-popup:before {
-				display: none;
+				/*display: none;*/
 			}
 
 			.poptrox-popup .caption {
-				display: none !important;
+				/*display: none !important;*/
 			}
 
 			.poptrox-popup .closer,
 			.poptrox-popup .nav-previous,
 			.poptrox-popup .nav-next {
-				display: none !important;
+				/*display: none !important;*/
 			}
 
 		}
